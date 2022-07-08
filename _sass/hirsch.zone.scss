@@ -1,0 +1,93 @@
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.bg-almost-black {
+  background-color: #0c0c0c !important;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family:'VeraMono';
+	color: #4d4d4d;
+	font-size: 16px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block; /* remove extra space below image */
+}
+
+em {
+	font-style: normal;
+}
+em.italic {
+	font-style: italic;
+}
+em.blue {
+	color: #1975ff;
+}
+em.darkblue {
+	color: #0044aa;
+}
+em.darkgreen {
+	color: #008000;
+}
+
+input.nonce {
+	display: none;
+}
+
+.cooker-img {
+    background: url('../img/cooker_small.jpg');
+	@include background-cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.remote-access-img {
+    background: url('../img/remote_access.jpg');
+	@include background-cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.wort-node-img {
+    background: url('../img/wort_node.jpg');
+	@include background-cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.relative {
+  position: relative;
+}
+
+.rh-lg-6 {
+	/* padding-right:0 !important; */
+	width: 100%;
+	min-height: 15rem;
+}
+.lh-lg-6 {
+	/* padding-left:0 !important; */
+	width: 100%;
+	min-height: 15rem;
+}
+
+@media screen and (min-width: 992px){
+	.rh-lg-6 {
+		/* padding-right:0 !important; */
+		width: 100%;
+		min-height: 100%;
+	}
+	.lh-lg-6 {
+		/* padding-left:0 !important; */
+		width: 100%;
+		min-height: 100%;
+	}
+}

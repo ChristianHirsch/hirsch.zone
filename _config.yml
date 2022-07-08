@@ -1,0 +1,43 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://hirsch.zone
+#url: https://hirsch.zone/beta
+#url: http://127.0.0.1:4000
+title: hirsch.zone - IoT solutions
+title-styled: hirsch<em class="italic">.zone</em>
+email: christian@hirsch.zone
+author: Christian Hirsch
+description: IoT solutions, hardware prototyping and development
+copyright: 'Copyright &copy; 2022 <a href="https://www.linkedin.com/in/christian-hirsch-23150870/" target="_blank">Christian Hirsch</a>. All Rights Reserved.'
+
+include:
+  - contact_failed.html
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compact
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+#  - title: twitter
+#    url: https://twitter.com/SBootstrap
+  - title: github
+    url: https://github.com/ChristianHirsch/
+  - title: linkedin
+    url: https://www.linkedin.com/in/christian-hirsch-23150870/
+
+webserver_headers:
+    Access-Control-Allow-Origin: "https://lists.chrivieh.net"
+    Access-Control-Allow-Methods: "GET, OPTIONS, HEAD, POST"

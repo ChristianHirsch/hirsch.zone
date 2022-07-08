@@ -1,0 +1,27 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/* digidrip Fonts */
+@import "fonts";
+
+/* landing-page * /
+// Core variables and mixins
+@import "_variables.scss";
+@import "_mixins.scss";
+// Global CSS
+@import "_global.scss";
+// Components
+@import "_masthead.scss";
+@import "_showcase.scss";
+@import "_icons.scss";
+@import "_testimonials.scss";
+@import "_call-to-action.scss";
+@import "_footer.scss";
+*/
+
+@import "landing-page";
+
+/* hirsch.zone */
+@import "hirsch.zone";

@@ -1,0 +1,54 @@
+<section class="call-to-action text-center" id="contact">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-9 mx-auto">
+				<h3 class="mb-4">Let's talk about your project:</h3>
+			</div>
+		</div>
+		<div class="row form">
+			<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+				<form method="post" action="https://hirsch.zone/contact/index.php">
+					<input id="d274e" type="hidden"   name="l" value="c2a89496-4294-40be-b9a3-b0f05baa2459" />
+					<input type="hidden" name="referrer_success" value="{{ site.url }}/contact_success" />
+					<input type="hidden" name="referrer_failed"  value="{{ site.url }}/contact_failed" />
+					<div class="form-row">
+						<div class="col-12 mb-1">
+							<input class="form-control form-control-lg" type="text" name="name" placeholder="Name" />
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-12 mb-1">
+							<input class="form-control form-control-lg" type="text" name="email" placeholder="E-mail" />
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-12 mb-1">
+							<input class="form-control form-control-lg" type="text" name="phone" placeholder="Phone (+43 1234 56789)" />
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-12 mb-1">
+							<textarea class="form-control rounded-1" name="message" rows="10"></textarea>
+						</div>
+					</div>
+					<div class="form-row">
+						<input name="nonce" class="nonce" value="" />
+						<div class="col-12 mb-1">
+							<button class="btn btn-block btn-lg btn-primary" type="submit" name="submit">
+								Send
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-7 mx-auto">
+				<br><small>
+					Please consider our <a href="{{ site.url }}/privacy_policy">privacy policy</a>.
+				</small>
+			</div>
+		</div>
+	</div>
+</section>

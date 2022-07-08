@@ -1,0 +1,28 @@
+header.masthead {
+	position: relative;
+	background-color: $gray-800;
+	background: url(../img/hirsch_zone_header.jpg) no-repeat center center;
+	@include background-cover;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+
+	.overlay {
+		position: absolute;
+		background-color: $gray-900;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0.1;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	@media (min-width: 68px) {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		h1 {
+			font-size: 3rem;
+		}
+	}
+}
