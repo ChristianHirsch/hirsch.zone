@@ -1,4 +1,6 @@
 FROM docker.io/jekyll/builder:latest AS builder
+WORKDIR /srv/jekyll
+COPY . .
 RUN mkdir /tmp/build && \
     mkdir /srv/jekyll/.jekyll-cache /srv/jekyll/_site && \
     chmod -R 0777 /srv/jekyll /tmp/build && \
