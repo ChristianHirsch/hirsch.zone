@@ -1,0 +1,7 @@
+# ----------------------- #
+#      Debug Configs      #
+# ----------------------- #
+
+url: http://127.0.0.1:4000
+debug: true
+title: hirsch.zone - IoT solutions [DEBUG VERSION]

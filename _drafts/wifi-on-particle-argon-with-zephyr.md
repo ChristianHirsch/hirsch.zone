@@ -11,4 +11,19 @@ The Argon uses a Nordic nRF52840 as its main processor and an ESP32 as a WiFi co
 
 ## Building ESP-NCP
 
+Unfortunately, it is not possible to neither use Particle's NCP firmware right away nor the one Espressif is offering. So it is necessary to adjust the Firmware a bit. But good news: I forked Espressif's [ESP-AT](https://github.com/espressif/esp-at) firmware and made the adjsutments so you just need to compile it.
 
+The necessary steps are:
+
+* Clone the repository.
+* Setup ESP toolchain.
+* Compile firmware.
+* "Pack" firmware.
+
+First, clone the [repository](https://github.com/christianhirsch/esp-at), then head over to the new folder and start setting up the ESP toolchain and compile the firmware:
+
+```bash
+git clone https://github.com/christianhirsch/esp-at
+cd esp-at
+
+```
